@@ -45,3 +45,7 @@ img{
     font-weight: bold;
     line-height: normal;
 }
+main{
+    width: 1200px;
+    height: 1024px;
+}
