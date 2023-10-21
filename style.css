@@ -56,13 +56,19 @@ main{
     max-width: 100%; 
     width: 80%; 
 }
-.botonespaginas{
-    padding: 20px;
+
+a{
+    text-decoration:none;
+} 
+
+.botonespaginas {
+    padding: 30px;
     position: absolute;
-    top: 200px;
+    top: 300px;
     left: 400px;
-    font-size: 10px;
+    font-size: 30px;
 }
+
 .pie {
     position: absolute;
     bottom: 0%;
