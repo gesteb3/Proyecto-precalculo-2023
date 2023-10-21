@@ -1,20 +1,26 @@
 /* Estilo para el cuerpo de la página */
-body {
-    font-family: Arial, sans-serif;
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+body{
+    position: relative;
 }
 
 header {
-    max-width: 1536px;
+    position: absolute;
+    top: 0%;
+    width:100%;
     width: 100%;
     height: 210px;
     flex-shrink: 0;
     background-color: #334872;
+
 }
 .caja{
-    position: absolute;
     padding: 45.4px;
     color: #FFF;
     font-family: 'Titan One', sans-serif;
@@ -23,12 +29,12 @@ header {
 }
 
 img{
-    padding: 10px;
+    max-width: 100%;
     position: absolute;
-    top: -3px;
+    top: 8px;
     left: 80%;
     width: 195px;
-    height: 195px;
+    height: auto;
 }
 
 .titulo{
@@ -45,7 +51,33 @@ img{
     font-weight: bold;
     line-height: normal;
 }
+
 main{
-    width: 1200px;
-    height: 1024px;
+    max-width: 100%; 
+    width: 80%; 
+}
+.botonespaginas{
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 10px;
+}
+.pie {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 60px;
+    background: #717978;
+    opacity: 90%;
+    color: #fff;
+    text-align: center;
+}
+.textogit{
+    padding: 5px;
+    font-size: 20px;
+}
+footer i.fa-github {
+    font-size: 24px; 
+    color: #fff;
 }
