@@ -2,7 +2,7 @@
 
 ¡Bienvenido al Proyecto de Precálculo 2023! Este proyecto busca ayudar a los estudiantes a poder realizar ciertas operaciones como lo son (calculo de distancia, calculo de punto medio, calculo de pendiente y calcular la ecuacion de la recta punto-pendiente)
 
-## Objetivos del Proyecto
+## Objetivos del proyecto
 
 Este proyecto tiene como objetivo:
 
@@ -11,7 +11,7 @@ Este proyecto tiene como objetivo:
 - Fomentar el interés por las matemáticas y su aplicabilidad en la vida cotidiana.
 
 
-## Cómo Contribuir
+## Cómo contribuir
 
 Nos encantaría contar contigo como colaborador en este proyecto. Puedes contribuir de las siguientes maneras:
 
@@ -26,4 +26,4 @@ Nos encantaría contar contigo como colaborador en este proyecto. Puedes contrib
 
 ## Créditos
 
-Este proyecto es mantenido por [Gustavo Esteban] y [Helen Martínez]. Agradecemos a todos los que han contribuido a hacer de este proyecto una realidad.
+Este proyecto es desarrollado por Gustavo Esteban y Helen Martínez. Agradecemos a todos los que han contribuido a hacer de este proyecto una realidad.
