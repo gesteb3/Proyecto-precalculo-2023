@@ -8,23 +8,23 @@ header {
     width: 100%;
     height: 150px;
     background-color: #334872;
-}
 
-.caja {
+}
+.caja{
     padding: 45.4px;
     margin:0 auto;
     color: #FFF;
     font-family: 'Titan One', sans-serif;
-    font-size: 95px;
-    letter-spacing: 2.5px;
+    font-size: 105px;
+    letter-spacing: 3px;
 }
 
-img {
+img{
     max-width: 100%;
     position: absolute;
-    top: 10px;
-    left: 90%;
-    width: 130px;
+    top: 8px;
+    left: 80%;
+    width: 195px;
     height: auto;
 }
 footer {
@@ -46,9 +46,15 @@ footer {
     margin-top: 10px;
     color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
     font-size: 75px;
     font-style: inherit;
+=======
+    font-size: 85px;
+    font-style: normal;
+>>>>>>> 846b3ca05333a5b7ddd4c4061742d661e1d3222a
     font-weight: bold;
+    line-height: normal;
 }
 
 main {
@@ -57,9 +63,9 @@ main {
     padding-bottom: 100%;
 }
 
-a {
-    text-decoration: none;
-}
+a{
+    text-decoration:none;
+} 
 
 .botonespaginas {
     padding: 40px;
