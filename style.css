@@ -47,7 +47,13 @@ main {
 
 a{
     text-decoration:none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
+a:hover{
+    font-weight: bold;
+}
 
 .container {
     position: absolute;
@@ -63,14 +69,27 @@ a{
         display: flex;
         justify-content: center;
     }
-    #boton1, #boton2, #boton3 {
+    #boton1:hover,#boton2:hover,#boton3:hover,#boton4:hover{
+        background: #2b9fffd3;
+    }
+    #boton1, #boton2 {
         background-color: rgba(0, 89, 255, 0.288);
         padding: 20px; 
-        margin: 20px; 
+        margin: 35px; 
+        border-radius: 10px;
+    }
+    #boton3{
+        position: relative;
+        right: 50px;
+        background-color: rgba(0, 89, 255, 0.288);
+        padding: 20px; 
+        margin: 35px; 
         border-radius: 10px;
     }
     #boton4 {
-        background-color: rgba(0, 89, 255, 0.288); /* Color de fondo del botón */
+        background-color: rgba(0, 89, 255, 0.288); 
+        position: relative;
+        right: 15px;
         width: 450px;
         height: 150px;
         padding: 5px 5px;
@@ -116,7 +135,7 @@ footer {
 }
 .footerd{
         position: relative;
-        top: 182px;
+        top: 172px;
         background-color: #979494;
         text-align: center;
         padding: 10px;
