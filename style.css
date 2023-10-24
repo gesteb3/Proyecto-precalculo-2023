@@ -39,20 +39,19 @@ footer {
 }
 
 .titulo {
-    position: relative;
+    position: absolute;
     top: 20%;
     padding-left: 45px;
-    height: 1px;
+    height: 15%;
     margin-top: 10px;
     color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-<<<<<<< HEAD
+
     font-size: 75px;
     font-style: inherit;
-=======
-    font-size: 85px;
-    font-style: normal;
->>>>>>> 846b3ca05333a5b7ddd4c4061742d661e1d3222a
+
+   
+
     font-weight: bold;
     line-height: normal;
 }
@@ -74,7 +73,7 @@ a{
     text-align: center;
 
 #boton1{
-
+    
     background-color: rgba(0, 89, 255, 0.288);
     padding: 20px;
     
