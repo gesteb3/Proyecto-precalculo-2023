@@ -42,12 +42,17 @@ footer {
     position: relative;
     top: 20%;
     padding-left: 45px;
-    height: 100px;
+    height: 1px;
     margin-top: 10px;
     color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
+    font-size: 75px;
+    font-style: inherit;
+=======
     font-size: 85px;
     font-style: normal;
+>>>>>>> 846b3ca05333a5b7ddd4c4061742d661e1d3222a
     font-weight: bold;
     line-height: normal;
 }
@@ -63,10 +68,31 @@ a{
 } 
 
 .botonespaginas {
-    padding: 30px;
+    padding: 40px;
     position: absolute;
-    font-size: 30px;
+    font-size: 58px;
     text-align: center;
+
+#boton1{
+
+    background-color: rgba(0, 89, 255, 0.288);
+    padding: 20px;
+    
+}
+#boton2{
+
+    background-color: rgba(0, 89, 255, 0.288);
+    padding: 20px;
+}#boton3{
+
+    background-color: rgba(0, 89, 255, 0.288);
+    padding: 20px;
+}#boton4{
+
+    background-color: rgba(0, 89, 255, 0.288);
+     padding: 20px;
+}
+
 }
 
 
@@ -76,3 +102,4 @@ footer i.fa-github {
     font-size: 26px;
     color: #fff;
 }
+

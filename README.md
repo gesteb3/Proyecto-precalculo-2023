@@ -26,4 +26,4 @@ Nos encantaría contar contigo como colaborador en este proyecto. Puedes contrib
 
 ## Créditos
 
-Este proyecto es desarrollado por Gustavo Esteban y Helen Martínez. Agradecemos a todos los que han contribuido a hacer de este proyecto una realidad.
+Este proyecto es desarrollado por Gustavo Esteban, Ergi Froilan y Helen Martínez. Agradecemos a todos los que han contribuido a hacer de este proyecto una realidad.
