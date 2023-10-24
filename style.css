@@ -88,13 +88,13 @@ a{
 
 .contenedor-texto, .contenedor-respuesta {
     width: 50%; 
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 5px;
     padding: 20px;
 }
 
 .contenedor-texto h2, .contenedor-respuesta h2 {
-    font-size: 24px;
+    font-size: 32px;
     color: #333;
 }
 
@@ -124,7 +124,28 @@ footer {
         font-size: 20px;
         padding: 10px;
 }
-
+button {
+    position: relative;
+    left: 30px;
+    border: none; 
+    color: black; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 15px;
+    font-weight: bold;
+}
+button {
+    background-color: white; 
+    border: 1px solid #012347;
+} 
+button:hover {
+    background: #2b9fffd3; 
+    color: white;
+}
+button:active {
+    background-color: #279aff;
+  }
 footer i.fa-github {
     position: relative;
     text-align: center;
