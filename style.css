@@ -10,7 +10,7 @@ body {
     background-color: #334872;
 
 }
-.caja{
+h1{
     padding: 45.4px;
     margin:0 auto;
     color: #FFF;
@@ -26,16 +26,6 @@ img{
     left: 90%;
     width: 135px;
     height: auto;
-}
-footer {
-    position: relative;
-    top: 100px;
-    background-color: #979494;
-    text-align: center;
-    padding: 10px;
-    width: auto;
-    font-size: 20px;
-    padding: 10px;
 }
 
 .titulo {
@@ -67,27 +57,30 @@ a{
     position: absolute;
     font-size: 58px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-#boton1{
-
-    background-color: rgba(0, 89, 255, 0.288);
-    padding: 20px;
-    
+.botonesarriba,
+.botonesabajo {
+        display: flex;
+        justify-content: center;
+    }
+    #boton1, #boton2, #boton3, #boton4 {
+        background-color: rgba(0, 89, 255, 0.288);
+        padding: 20px; 
+        margin: 20px; 
+    }
 }
-#boton2{
-
-    background-color: rgba(0, 89, 255, 0.288);
-    padding: 20px;
-}#boton3{
-
-    background-color: rgba(0, 89, 255, 0.288);
-    padding: 20px;
-}#boton4{
-
-    background-color: rgba(0, 89, 255, 0.288);
-     padding: 20px;
-}
-
+footer {
+    position: relative;
+    top: 100px;
+    background-color: #979494;
+    text-align: center;
+    padding: 10px;
+    width: auto;
+    font-size: 20px;
+    padding: 10px;
 }
 
 
