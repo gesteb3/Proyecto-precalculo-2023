@@ -61,38 +61,37 @@ a{
     flex-direction: column;
     align-items: center;
 
-    .botonesarriba,
-    .botonesabajo {
-        display: flex;
-        justify-content: center;
-    }
-    
-    #boton1, #boton2, #boton3, #boton4 {
-        padding: 20px;
-        margin: 50px;
-        border-radius: 10px;
-        text-align: center;
-        min-width: 200px; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #boton1, #boton2 {
-        background-color: #694aeb;
-    }
-    
-    #boton3, #boton4 {
-        background-color: #9b79f2;
-    }
-    
-    #boton4 {
-        position: relative;
-        left: 0;
-        padding: 20px;
-        margin: 50px;
-    }
-    
+.botonesarriba,
+.botonesabajo {
+    display: flex;
+    justify-content: center;
+}
+
+#boton1, #boton2, #boton3, #boton4 {
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 200px; /* Establece el ancho mínimo deseado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton1, #boton2 {
+    background-color: #694aeb;
+}
+
+#boton3, #boton4 {
+    background-color: #9b79f2;
+}
+
+#boton4 {
+    position: relative;
+    left: 0;
+    padding: 20px;
+    margin: 50px;
+}
 footer {
     position: relative;
     top: 100px;
@@ -111,4 +110,3 @@ footer i.fa-github {
     font-size: 26px;
     color: #fff;
 }
-
