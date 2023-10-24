@@ -29,23 +29,23 @@ img{
 }
 
 .titulo {
-    position: relative;
-    top: 20%;
-    padding-left: 45px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    height: 300px;
     height: 1px;
-    margin-top: 10px;
     color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 75px;
+    font-size: 65px;
     font-style: inherit;
     font-weight: bold;
-    line-height: normal;
 }
 
 main {
     padding-bottom: auto;
-    margin-top: 200px;
-    padding-bottom: 45%;
+    position: relative;
+    background-color: white;
+    margin-top: 100px;
 }
 
 a{
@@ -53,7 +53,7 @@ a{
 } 
 
 .container {
-    padding: 50px;
+    padding: 0px;
     position: absolute;
     font-size: 58px;
     text-align: center;
@@ -63,38 +63,19 @@ a{
 
 .botonesarriba,
 .botonesabajo {
-    display: flex;
-    justify-content: center;
-}
-
-#boton1, #boton2, #boton3, #boton4 {
-    padding: 20px;
-    margin: 50px;
-    border-radius: 10px;
-    text-align: center;
-    min-width: 200px; /* Establece el ancho mínimo deseado */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#boton1, #boton2 {
-    background-color: #694aeb;
-}
-
-#boton3, #boton4 {
-    background-color: #9b79f2;
-}
-
-#boton4 {
-    position: relative;
-    left: 0;
-    padding: 20px;
-    margin: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    #boton1, #boton2, #boton3, #boton4 {
+        background-color: rgba(0, 89, 255, 0.288);
+        padding: 20px; 
+        margin: 20px; 
+        border-radius: 10px;
+    }
 }
 footer {
     position: relative;
-    top: 100px;
+    top: 511px;
     background-color: #979494;
     text-align: center;
     padding: 10px;
@@ -103,10 +84,10 @@ footer {
     padding: 10px;
 }
 
-
 footer i.fa-github {
     position: relative;
     text-align: center;
     font-size: 26px;
     color: #fff;
 }
+
