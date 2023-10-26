@@ -86,16 +86,6 @@ a:hover{
         margin: 35px; 
         border-radius: 10px;
     }
-    #boton4 {
-        background-color: rgba(0, 89, 255, 0.288); 
-        position: relative;
-        right: 15px;
-        width: 450px;
-        height: 150px;
-        padding: 5px 5px;
-        border-radius: 10px; 
-        text-align: center; 
-    }
 }
 .mainpage {
     display: flex;
@@ -144,8 +134,3 @@ button:hover {
 button:active {
     background-color: #279aff;
 }
-#signoY {
-    visibility: hidden;
-}
-
-
