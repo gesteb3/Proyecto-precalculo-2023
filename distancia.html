@@ -22,22 +22,22 @@
         <main class="mainpage">
             <div class="contenedor-texto">
                 <h2>CALCULAR DISTANCIA</h2>
-                <p>Encuentre la distancia entre los puntos: </p><br>
-                <div class ="inputDA">
-                    <label for="X1">X1:</label>
-                    <input type="number" id="x1" name="x1">
-                    <label for="y1">Y1:</label>
-                    <input type="number" id="y1" name="y1">
+                <p>Encuentre la distancia entre los puntos:</p><br>
+                <div class="inputDA">
+                    <label for="divisionX1">X1:</label>
+                    <input type="text" id="divisionX1" placeholder="Ejemplo: 3/2 o 1.5">
+                    <label for="divisionY1">Y1:</label>
+                    <input type="text" id="divisionY1" placeholder="Ejemplo: 0.66 o -3.32">
                     <br><br>
                 </div>
                 <div class="inputDB">
-                    <label for="X2">X2:</label>
-                    <input type="number" id="x2" name="x2">
-                    <label for="y2">Y2:</label>
-                    <input type="number" id="y2" name="y2"><br><br><br>
-                        <button onclick="calcdist()">Calcular</button>
+                    <label for="divisionX2">X2:</label>
+                    <input type="text" id="divisionX2" placeholder="Ejemplo: 2/4 o 2">
+                    <label for="divisionY2">Y2:</label>
+                    <input type="text" id="divisionY2" placeholder="Ejemplo: 2 o 1/5">
+                    <br><br><br>
+                    <button onclick="calcdist()">Calcular</button>
                 </div>
-                
 
             </div>
             <div class="contenedor-respuesta">
@@ -46,5 +46,6 @@
             </div>
         </main>
     </main>
+
 </body>
 </html>

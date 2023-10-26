@@ -144,5 +144,8 @@ button:hover {
 button:active {
     background-color: #279aff;
 }
+#signoY {
+    visibility: hidden;
+}
 
 

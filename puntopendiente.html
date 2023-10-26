@@ -21,23 +21,21 @@
     <main>
         <main class="mainpage">
             <div class="contenedor-texto">
-                <h2>CALCULAR PENDIENTE</h2>
+                <h2>CALCULAR PUNTO PENDIENTE</h2>
                 <p>Halle la ecuación de la recta con pendiente <label for="pe1">:</label>
-                <input type="number" id="pe1" name="pe1"> que pasa por los puntos: </p><br>
+                <input type="text" id="pe1" name="pe1" placeholder="Ejemplo: 2/3 o 1.4"> que pasa por los puntos: </p><br>
                 <div class="inputDB">
-                    
-                    <label for="X1">X:</label>
-                    <input type="number" id="x1" name="x1">
+                    <label for="x1">X:</label>
+                    <input type="text" id="x1" name="x1" placeholder="Ejemplo: 3/2 o 1.5">
                     <label for="y1">Y:</label>
-                    <input type="number" id="y1" name="y1"><br><br><br>
-                        <button onclick="calpp()">Calcular</button>
+                    <input type="text" id="y1" name="y1" placeholder="Ejemplo: 2/3 o 1.5"><br><br><br>
+                    <button onclick="calpp()">Calcular</button>
                 </div>
-                
-
             </div>
             <div class="contenedor-respuesta">
                 <h2>RESPUESTA</h2><br>
                 <p id="respuesta">La respuesta a tu pregunta estará aquí.</p><br>
+                <span id="signoY" style="visibility: hidden">+</span>
             </div>
         </main>
     </main>
