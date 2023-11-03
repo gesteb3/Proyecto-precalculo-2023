@@ -149,7 +149,7 @@ function calpm() {
              FÓRMULA: (X2-X1)/2, (Y2-Y1)/2 <br><br>
         1. X2+X1 = ${sumaX}, Y2+Y1 = ${sumaY} <br><br>
         
-        2. (X2-X1)/2, (Y2-Y1)/2 = (${divX} , ${divY})<br><br>`;
+        2. (X2+X1)/2, (Y2+Y1)/2 = (${divX} , ${divY})<br><br>`;
 
         // Mostrar el procedimiento y el resultado 
         const elementoRespuesta = document.getElementById('respuesta');
